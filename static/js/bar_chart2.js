@@ -54,9 +54,6 @@ function getDataAndPlot() {
             })
             .attr("height", y.bandwidth() )
             .attr("fill", "#e23636")
-            .style("font-size", "16px") 
-            .style("text-decoration", "underline")  
-            .text("Value vs Date Graph");
     })
 
 }
